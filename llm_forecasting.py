@@ -16,7 +16,7 @@ import io
 app = Flask(__name__)
 
 # Configuration for OpenAI API
-OPENAI_API_KEY = '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'  # Replace with your OpenAI API key
+OPENAI_API_KEY = None  # Replace with your OpenAI API key
 openai.api_key = OPENAI_API_KEY
 
 # Add a route for the root URL
